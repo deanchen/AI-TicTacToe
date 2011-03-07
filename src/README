@@ -1,0 +1,10 @@
+HW2 Zhuiyang Chen
+
+Run Main.py
+
+Depth can be changed in depth_limit in Main.py
+
+Algorithm completely implemented in Node.py
+
+Deviated from spec when returning the utility function of win/lose state since it may be larger/smaller than the evaluation function score which will cause algorithm to return unoptimal state. I instead return the MAX or MIN constant defined in Node.py to ensure that a win state has higher value than any other state.
+
